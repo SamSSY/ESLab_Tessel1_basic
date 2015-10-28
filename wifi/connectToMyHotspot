@@ -1,0 +1,5 @@
+#!/bin/bash
+
+##connect to my cell phone hotspot SSID: ntupeep pw: zzzzzzzz
+
+tessel wifi -n ntupeep -p zzzzzzzz
