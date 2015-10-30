@@ -27,7 +27,8 @@ var mainLoop = function() {
     
     res.on('end', function(){
       // after the request is finished, loop again
-      setTimeout(mainLoop, 5000);
+      mainLoop();
+      //setTimeout(mainLoop, 5000);
     });
   });
 
