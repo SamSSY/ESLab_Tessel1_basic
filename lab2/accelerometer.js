@@ -1,11 +1,3 @@
-// Any copyright is dedicated to the Public Domain.
-// http://creativecommons.org/publicdomain/zero/1.0/
-
-/*********************************************
-This basic accelerometer example logs a stream
-of x, y, and z data from the accelerometer
-*********************************************/
-
 var tessel = require('tessel');
 var accel = require('accel-mma84').use(tessel.port['A']);
 var tessel = require('tessel');
